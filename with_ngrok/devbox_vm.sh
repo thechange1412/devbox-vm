@@ -45,5 +45,5 @@ echo "Script by CVHNups, Windows img file by ThuongHai (https://github.com/kmill
 echo Ip: 
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo User: Administrator
-echo Password: Thuonghai001
+echo Password: cvhnup123@
 echo Wait 2-4m VM boot up before connect.
